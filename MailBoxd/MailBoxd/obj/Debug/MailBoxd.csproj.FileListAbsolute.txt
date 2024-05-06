@@ -28,3 +28,4 @@ C:\Users\adambokobza\source\repos\MailBoxd\MailBoxd\obj\Debug\SplashScreen.baml
 C:\Users\adambokobza\source\repos\MailBoxd\MailBoxd\obj\Debug\SplashScreen.g.cs
 C:\Users\adambokobza\source\repos\MailBoxd\MailBoxd\obj\Debug\AddMediaWindow.baml
 C:\Users\adambokobza\source\repos\MailBoxd\MailBoxd\obj\Debug\AddMediaWindow.g.cs
+C:\Users\adambokobza\source\repos\MailBoxd\MailBoxd\bin\Debug\Data\data.json

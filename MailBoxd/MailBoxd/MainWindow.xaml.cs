@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
@@ -85,9 +86,26 @@ namespace MailBoxd
             }
         }
 
-        
+        public void SaveData()
+        {
+            string appDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string dataDirectory = Path.Combine(appDirectory, "Data");
+            string dataFilePath = Path.Combine(dataDirectory, "data.json");
 
-        
+            FileManager fileManager = new FileManager(dataFilePath);
+
+            if (fileManager.CanWriteToFile())
+            {
+                DataManager.SaveData(); // Assume this method writes to the dataFilePath
+                MessageBox.Show("Data saved successfully!");
+            }
+            else
+            {
+                MessageBox.Show("Write permission is not granted for data.json");
+            }
+        }
+
+
 
         private void ShowAddMediaForm(object sender, RoutedEventArgs e)
         {
@@ -134,6 +152,8 @@ namespace MailBoxd
                 SeriesListView.Items.Refresh();
             });
         }
+
+        
 
         private void SearchBox_GotFocus(object sender, RoutedEventArgs e)
         {

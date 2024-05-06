@@ -11,10 +11,18 @@ namespace MailBoxd
         public List<Film> Films { get; set; } = new List<Film>(); // Initialisez par défaut
         public List<Serie> Series { get; set; } = new List<Serie>();
 
-        private string dataFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "data.json");
+        private string dataFilePath;
 
         public DataManager()
         {
+            // Construit le chemin vers le dossier Data dans le répertoire de l'application
+            string appDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string dataDirectory = Path.Combine(appDirectory, "Data");
+            dataFilePath = Path.Combine(dataDirectory, "data.json");
+
+            // Assurez-vous que le répertoire existe
+            Directory.CreateDirectory(dataDirectory);
+
             LoadData();
         }
         public void SaveData()

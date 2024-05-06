@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\mailboxd\\wishlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\wishlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\mailboxd\\films.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\films.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|c:\\users\\adambokobza\\source\\repos\\mailboxd\\mailboxd\\data\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\data\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\mailboxd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|c:\\users\\adambokobza\\source\\repos\\mailboxd\\mailboxd\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\mailboxd\\imediaitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\imediaitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\mailboxd\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\mailboxd\\films.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\films.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|c:\\users\\adambokobza\\source\\repos\\mailboxd\\mailboxd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|c:\\users\\adambokobza\\source\\repos\\mailboxd\\mailboxd\\wishlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\wishlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\mailboxd\\wishlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\mailboxd\\addmediawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\addmediawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\mailboxd\\imediaitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C52CE5-48D3-4B41-84A1-49FF38B3A1B5}|MailBoxd\\MailBoxd.csproj|solutionrelative:mailboxd\\imediaitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|MailBoxd||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
@@ -77,36 +85,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\FileManager.cs",
+              "RelativeDocumentMoniker": "MailBoxd\\FileManager.cs",
+              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\FileManager.cs",
+              "RelativeToolTip": "MailBoxd\\FileManager.cs",
+              "ViewState": "AQIAABYAAADAmpmZmdktwCYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T23:15:01.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "data.json",
+              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\Data\\data.json",
+              "RelativeDocumentMoniker": "MailBoxd\\Data\\data.json",
+              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\Data\\data.json",
+              "RelativeToolTip": "MailBoxd\\Data\\data.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-06T23:08:10.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DataManager.cs",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\DataManager.cs",
               "RelativeDocumentMoniker": "MailBoxd\\DataManager.cs",
               "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\DataManager.cs",
               "RelativeToolTip": "MailBoxd\\DataManager.cs",
-              "ViewState": "AQIAAAkAAADAMzMzM/MgwCMAAAARAAAA",
+              "ViewState": "AQIAAAIAAADgMzMzM5MwwBQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T15:09:41.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SplashScreen.xaml",
-              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\SplashScreen.xaml",
-              "RelativeDocumentMoniker": "MailBoxd\\SplashScreen.xaml",
-              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\SplashScreen.xaml",
-              "RelativeToolTip": "MailBoxd\\SplashScreen.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-05T14:30:52.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "SplashScreen.xaml.cs",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\SplashScreen.xaml.cs",
               "RelativeDocumentMoniker": "MailBoxd\\SplashScreen.xaml.cs",
@@ -114,12 +136,11 @@
               "RelativeToolTip": "MailBoxd\\SplashScreen.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:31:24.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T14:31:24.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "WishlistPage.xaml",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\WishlistPage.xaml",
               "RelativeDocumentMoniker": "MailBoxd\\WishlistPage.xaml",
@@ -131,32 +152,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MailBoxd\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\MainWindow.xaml",
               "RelativeToolTip": "MailBoxd\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-10T23:22:16.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-10T23:22:16.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MailBoxd\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\MainWindow.xaml.cs",
               "RelativeToolTip": "MailBoxd\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAG0AAACABAAAAMAmwIUAAAAvAAAA",
+              "ViewState": "AQIAAFEAAAAAZmZmZuYwwGkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-10T23:22:15.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "AddMediaWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\AddMediaWindow.xaml.cs",
               "RelativeDocumentMoniker": "MailBoxd\\AddMediaWindow.xaml.cs",
@@ -164,18 +184,17 @@
               "RelativeToolTip": "MailBoxd\\AddMediaWindow.xaml.cs",
               "ViewState": "AQIAADsAAAAgAAAAAIAowBEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:58:39.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T15:58:39.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Films.cs",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\Films.cs",
               "RelativeDocumentMoniker": "MailBoxd\\Films.cs",
               "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\Films.cs",
               "RelativeToolTip": "MailBoxd\\Films.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "ViewState": "AQIAAAIAAABAm5mZmRkWwBQAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T15:24:33.211Z",
               "EditorCaption": ""
@@ -183,55 +202,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "WishlistPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\WishlistPage.xaml.cs",
-              "RelativeDocumentMoniker": "MailBoxd\\WishlistPage.xaml.cs",
-              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\WishlistPage.xaml.cs",
-              "RelativeToolTip": "MailBoxd\\WishlistPage.xaml.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T14:33:48.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddMediaWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\AddMediaWindow.xaml",
-              "RelativeDocumentMoniker": "MailBoxd\\AddMediaWindow.xaml",
-              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\AddMediaWindow.xaml",
-              "RelativeToolTip": "MailBoxd\\AddMediaWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-05T15:58:04.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Model1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\Model1.Designer.cs",
-              "RelativeDocumentMoniker": "MailBoxd\\Model1.Designer.cs",
-              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\Model1.Designer.cs",
-              "RelativeToolTip": "MailBoxd\\Model1.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T00:22:05.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\App.xaml.cs",
-              "RelativeDocumentMoniker": "MailBoxd\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\App.xaml.cs",
-              "RelativeToolTip": "MailBoxd\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T14:55:42.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "IMediaItem.cs",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\IMediaItem.cs",
               "RelativeDocumentMoniker": "MailBoxd\\IMediaItem.cs",
@@ -244,7 +214,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
+              "Title": "SplashScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\SplashScreen.xaml",
+              "RelativeDocumentMoniker": "MailBoxd\\SplashScreen.xaml",
+              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\SplashScreen.xaml",
+              "RelativeToolTip": "MailBoxd\\SplashScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T14:30:52.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WishlistPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\WishlistPage.xaml.cs",
+              "RelativeDocumentMoniker": "MailBoxd\\WishlistPage.xaml.cs",
+              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\WishlistPage.xaml.cs",
+              "RelativeToolTip": "MailBoxd\\WishlistPage.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T14:33:48.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddMediaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\AddMediaWindow.xaml",
+              "RelativeDocumentMoniker": "MailBoxd\\AddMediaWindow.xaml",
+              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\AddMediaWindow.xaml",
+              "RelativeToolTip": "MailBoxd\\AddMediaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T15:58:04.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Model1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\Model1.Designer.cs",
+              "RelativeDocumentMoniker": "MailBoxd\\Model1.Designer.cs",
+              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\Model1.Designer.cs",
+              "RelativeToolTip": "MailBoxd\\Model1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T00:22:05.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MailBoxd\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\App.xaml.cs",
+              "RelativeToolTip": "MailBoxd\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T14:55:42.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\App.config",
               "RelativeDocumentMoniker": "MailBoxd\\App.config",
@@ -256,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\App.xaml",
               "RelativeDocumentMoniker": "MailBoxd\\App.xaml",
@@ -268,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MailBoxd",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\MailBoxd.csproj",
               "RelativeDocumentMoniker": "MailBoxd\\MailBoxd.csproj",
@@ -279,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\adambokobza\\source\\repos\\MailBoxd\\MailBoxd\\packages.config",
               "RelativeDocumentMoniker": "MailBoxd\\packages.config",
