@@ -1,0 +1,26 @@
+﻿<Window x:Class="MailBoxd.WishlistPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MailBoxd"
+        Title="WishlistPage" Height="450" Width="800"
+        Background="#FF2D2D30">
+    <!-- Définissez le fond sombre ici -->
+    <Window.Resources>
+        <!-- Définissez un style pour tous les TextBlock utilisés dans la fenêtre -->
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="WhiteSmoke"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <ListView x:Name="WishlistItemsListView" Background="#FF2D2D30">
+            <!-- Assurez-vous que le ListView a aussi le fond sombre -->
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Titre}" Width="120"/>
+                    <GridViewColumn Header="Genre" DisplayMemberBinding="{Binding Genre}" Width="100"/>
+                    <GridViewColumn Header="Year" DisplayMemberBinding="{Binding Annee}" Width="50"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

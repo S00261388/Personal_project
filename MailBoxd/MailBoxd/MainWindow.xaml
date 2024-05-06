@@ -1,0 +1,144 @@
+﻿<Window x:Class="MailBoxd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MailBoxd"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        WindowStyle="None"
+        WindowState="Maximized"
+        Background="#FF2D2D30">
+    <!-- Met la fenêtre en état maximisé -->
+
+    <Window.Resources>
+        <local:RatingToStarsConverter x:Key="RatingToStarsConverter"/>
+        <local:NoteToColorConverter x:Key="NoteToColorConverter"/>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="WhiteSmoke"/>
+            <Setter Property="FontSize" Value="16"/>
+            <!-- Augmentation de la taille de la police pour le texte -->
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="WhiteSmoke"/>
+            <Setter Property="FontSize" Value="22"/>
+            <!-- Augmentation de la taille pour les étiquettes -->
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="WhiteSmoke"/>
+            <Setter Property="Background" Value="#FF3E3E42"/>
+            <Setter Property="FontSize" Value="14"/>
+            <!-- Adaptation pour les TextBox -->
+        </Style>
+        <Style TargetType="ListView">
+            <Setter Property="Background" Value="#FF3E3E42"/>
+            <Setter Property="FontSize" Value="14"/>
+            <!-- Adaptation pour les ListView -->
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="WhiteSmoke"/>
+            <Setter Property="Background" Value="#FF007ACC"/>
+            <Setter Property="FontSize" Value="14"/>
+            <!-- Adaptation pour les boutons -->
+        </Style>
+    </Window.Resources>
+    <Grid Background="#FF2D2D30">
+
+        <DockPanel LastChildFill="True">
+            <ToolBarTray DockPanel.Dock="Top" VerticalAlignment="Top" Background="#FF333337">
+                <ToolBar>
+                    <Button Content="            See Wishlist                    " Click="OpenWishlistPage_Click"/>
+                    <Button Content="               Save                " Click="SaveButton_Click"/>
+                    <Button Content="               Add Movie/Serie                " Click="ShowAddMediaForm"/>
+                </ToolBar>
+            </ToolBarTray>
+            <TextBox x:Name="SearchBox" Margin="10" Text="Search..."
+                     GotFocus="SearchBox_GotFocus" LostFocus="SearchBox_LostFocus"
+                     Foreground="WhiteSmoke" TextChanged="SearchBox_TextChanged"
+                     DockPanel.Dock="Top" HorizontalAlignment="Stretch" Height="40" FontSize="16" Background="#FF3E3E42"/>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" DockPanel.Dock="Top">
+                <StackPanel Margin="10,50,10,10">
+                    <Label Content="Movies" FontSize="24" FontWeight="Bold" Foreground="White" Margin="0,0,0,10"/>
+                    <ListView x:Name="FilmsListView" ItemsSource="{Binding FilteredFilms}">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Titre}" Width="300"/>
+                                <GridViewColumn Header="Genre" DisplayMemberBinding="{Binding Genre}" Width="200"/>
+                                <GridViewColumn Header="Year" DisplayMemberBinding="{Binding Annee}" Width="100"/>
+                                <GridViewColumn Header="Rating" Width="200">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <ToggleButton Content="★" Foreground="{Binding Path=Note, Converter={StaticResource NoteToColorConverter}, ConverterParameter=1}" FontSize="20" Click="Star_Click" Tag="1"/>
+                                                <ToggleButton Content="★" Foreground="{Binding Path=Note, Converter={StaticResource NoteToColorConverter}, ConverterParameter=2}" FontSize="20" Click="Star_Click" Tag="2"/>
+                                                <ToggleButton Content="★" Foreground="{Binding Path=Note, Converter={StaticResource NoteToColorConverter}, ConverterParameter=3}" FontSize="20" Click="Star_Click" Tag="3"/>
+                                                <ToggleButton Content="★" Foreground="{Binding Path=Note, Converter={StaticResource NoteToColorConverter}, ConverterParameter=4}" FontSize="20" Click="Star_Click" Tag="4"/>
+                                                <ToggleButton Content="★" Foreground="{Binding Path=Note, Converter={StaticResource NoteToColorConverter}, ConverterParameter=5}" FontSize="20" Click="Star_Click" Tag="5"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Review" Width="300">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBox Text="{Binding Review, UpdateSourceTrigger=PropertyChanged}" Width="290" Height="Auto" TextWrapping="Wrap" AcceptsReturn="True"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Wishlist" Width="100">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <CheckBox IsChecked="{Binding IsInWishlist, Mode=TwoWay}" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+                    <Label Content="Series" FontSize="24" FontWeight="Bold" Foreground="White" Margin="0,20,0,10"/>
+
+                    <ListView x:Name="SeriesListView" ItemsSource="{Binding FilteredSeries}">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Titre}" Width="300"/>
+                                <GridViewColumn Header="Genre" DisplayMemberBinding="{Binding Genre}" Width="200"/>
+                                <GridViewColumn Header="Year" DisplayMemberBinding="{Binding Annee}" Width="100"/>
+                                <GridViewColumn Header="Rating" Width="200">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <ToggleButton Content="★" Foreground="{Binding Path=Note, Converter={StaticResource NoteToColorConverter}, ConverterParameter=1}" FontSize="20" Click="Star_Click" Tag="1"/>
+                                                <ToggleButton Content="★" Foreground="{Binding Path=Note, Converter={StaticResource NoteToColorConverter}, ConverterParameter=2}" FontSize="20" Click="Star_Click" Tag="2"/>
+                                                <ToggleButton Content="★" Foreground="{Binding Path=Note, Converter={StaticResource NoteToColorConverter}, ConverterParameter=3}" FontSize="20" Click="Star_Click" Tag="3"/>
+                                                <ToggleButton Content="★" Foreground="{Binding Path=Note, Converter={StaticResource NoteToColorConverter}, ConverterParameter=4}" FontSize="20" Click="Star_Click" Tag="4"/>
+                                                <ToggleButton Content="★" Foreground="{Binding Path=Note, Converter={StaticResource NoteToColorConverter}, ConverterParameter=5}" FontSize="20" Click="Star_Click" Tag="5"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate
+                            >
+                                </GridViewColumn>
+                                    <GridViewColumn Header="Review" Width="300">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <TextBox Text="{Binding Review, UpdateSourceTrigger=PropertyChanged}" Width="290" Height="Auto" TextWrapping="Wrap" AcceptsReturn="True"/>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                    <GridViewColumn Header="Wishlist" Width="100">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <CheckBox IsChecked="{Binding IsInWishlist, Mode=TwoWay}" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                            </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+            </ScrollViewer>
+        </DockPanel>
+        
+    </Grid>
+</Window>

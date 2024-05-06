@@ -1,0 +1,942 @@
+{
+  "Films": [
+    {
+      "Titre": "Inception",
+      "Genre": "Sci-Fi",
+      "Annee": 2010,
+      "Note": 2.0,
+      "ImagePath": "Images/inception.jpg",
+      "Review": "",
+      "IsInWishlist": true
+    },
+    {
+      "Titre": "Interstellar",
+      "Genre": "Sci-Fi",
+      "Annee": 2014,
+      "Note": 3.0,
+      "ImagePath": "Images/interstellar.jpg",
+      "Review": "",
+      "IsInWishlist": true
+    },
+    {
+      "Titre": "The Matrix",
+      "Genre": "Sci-Fi",
+      "Annee": 1999,
+      "Note": 3.0,
+      "ImagePath": "Images/thematrix.jpg",
+      "Review": "",
+      "IsInWishlist": true
+    },
+    {
+      "Titre": "Blade Runner 2049",
+      "Genre": "Sci-Fi",
+      "Annee": 2017,
+      "Note": 3.0,
+      "ImagePath": "Images/bladerunner2049.jpg",
+      "Review": "",
+      "IsInWishlist": true
+    },
+    {
+      "Titre": "Avengers: Endgame",
+      "Genre": "Action",
+      "Annee": 2019,
+      "Note": 3.0,
+      "ImagePath": "Images/avengersendgame.jpg",
+      "Review": "",
+      "IsInWishlist": true
+    },
+    {
+      "Titre": "Pulp Fiction",
+      "Genre": "Crime",
+      "Annee": 1994,
+      "Note": 0.0,
+      "ImagePath": "Images/pulpfiction.jpg",
+      "Review": "",
+      "IsInWishlist": true
+    },
+    {
+      "Titre": "Parasite",
+      "Genre": "Thriller",
+      "Annee": 2019,
+      "Note": 0.0,
+      "ImagePath": "Images/parasite.jpg",
+      "Review": "",
+      "IsInWishlist": true
+    },
+    {
+      "Titre": "Mad Max: Fury Road",
+      "Genre": "Action",
+      "Annee": 2015,
+      "Note": 4.0,
+      "ImagePath": "Images/madmaxfuryroad.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Grand Budapest Hotel",
+      "Genre": "Comedy",
+      "Annee": 2014,
+      "Note": 0.0,
+      "ImagePath": "Images/thegrandbudapesthotel.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Gravity",
+      "Genre": "Sci-Fi",
+      "Annee": 2013,
+      "Note": 0.0,
+      "ImagePath": "Images/gravity.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Dune",
+      "Genre": "Sci-Fi",
+      "Annee": 2021,
+      "Note": 0.0,
+      "ImagePath": "Images/dune.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Dark Knight",
+      "Genre": "Action",
+      "Annee": 2008,
+      "Note": 0.0,
+      "ImagePath": "Images/thedarkknight.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Fight Club",
+      "Genre": "Drama",
+      "Annee": 1999,
+      "Note": 0.0,
+      "ImagePath": "Images/fightclub.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Gone Girl",
+      "Genre": "Mystery",
+      "Annee": 2014,
+      "Note": 0.0,
+      "ImagePath": "Images/gonegirl.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Forrest Gump",
+      "Genre": "Drama",
+      "Annee": 1994,
+      "Note": 0.0,
+      "ImagePath": "Images/forrestgump.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Silence of the Lambs",
+      "Genre": "Thriller",
+      "Annee": 1991,
+      "Note": 0.0,
+      "ImagePath": "Images/thesilenceofthelambs.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Joker",
+      "Genre": "Drama",
+      "Annee": 2019,
+      "Note": 0.0,
+      "ImagePath": "Images/joker.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Shawshank Redemption",
+      "Genre": "Drama",
+      "Annee": 1994,
+      "Note": 0.0,
+      "ImagePath": "Images/theshawshankredemption.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Schindler's List",
+      "Genre": "Drama",
+      "Annee": 1993,
+      "Note": 0.0,
+      "ImagePath": "Images/schindlerslist.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Inglourious Basterds",
+      "Genre": "War",
+      "Annee": 2009,
+      "Note": 0.0,
+      "ImagePath": "Images/inglouriousbasterds.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Saving Private Ryan",
+      "Genre": "War",
+      "Annee": 1998,
+      "Note": 0.0,
+      "ImagePath": "Images/savingprivateryan.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "La La Land",
+      "Genre": "Musical",
+      "Annee": 2016,
+      "Note": 0.0,
+      "ImagePath": "Images/lalaland.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Whiplash",
+      "Genre": "Drama",
+      "Annee": 2014,
+      "Note": 0.0,
+      "ImagePath": "Images/whiplash.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Se7en",
+      "Genre": "Thriller",
+      "Annee": 1995,
+      "Note": 0.0,
+      "ImagePath": "Images/se7en.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Prestige",
+      "Genre": "Mystery",
+      "Annee": 2006,
+      "Note": 0.0,
+      "ImagePath": "Images/theprestige.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Departed",
+      "Genre": "Crime",
+      "Annee": 2006,
+      "Note": 0.0,
+      "ImagePath": "Images/thedeparted.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Godfather",
+      "Genre": "Crime",
+      "Annee": 1972,
+      "Note": 0.0,
+      "ImagePath": "Images/thegodfather.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Taxi Driver",
+      "Genre": "Drama",
+      "Annee": 1976,
+      "Note": 0.0,
+      "ImagePath": "Images/taxidriver.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Psycho",
+      "Genre": "Horror",
+      "Annee": 1960,
+      "Note": 0.0,
+      "ImagePath": "Images/psycho.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Rear Window",
+      "Genre": "Mystery",
+      "Annee": 1954,
+      "Note": 0.0,
+      "ImagePath": "Images/rearwindow.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Casablanca",
+      "Genre": "Romance",
+      "Annee": 1942,
+      "Note": 0.0,
+      "ImagePath": "Images/casablanca.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Amélie",
+      "Genre": "Romance",
+      "Annee": 2001,
+      "Note": 0.0,
+      "ImagePath": "Images/amelie.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Monty Python and the Holy Grail",
+      "Genre": "Comedy",
+      "Annee": 1975,
+      "Note": 0.0,
+      "ImagePath": "Images/montypythonandtheholygrail.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Life of Brian",
+      "Genre": "Comedy",
+      "Annee": 1979,
+      "Note": 0.0,
+      "ImagePath": "Images/lifeofbrian.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Big Lebowski",
+      "Genre": "Comedy",
+      "Annee": 1998,
+      "Note": 0.0,
+      "ImagePath": "Images/thebiglebowski.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Fargo",
+      "Genre": "Crime",
+      "Annee": 1996,
+      "Note": 0.0,
+      "ImagePath": "Images/fargo.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "No Country for Old Men",
+      "Genre": "Thriller",
+      "Annee": 2007,
+      "Note": 0.0,
+      "ImagePath": "Images/nocountryforoldmen.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Catch Me If You Can",
+      "Genre": "Biography",
+      "Annee": 2002,
+      "Note": 0.0,
+      "ImagePath": "Images/catchmeifyoucan.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Social Network",
+      "Genre": "Drama",
+      "Annee": 2010,
+      "Note": 0.0,
+      "ImagePath": "Images/thesocialnetwork.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Moonlight",
+      "Genre": "Drama",
+      "Annee": 2016,
+      "Note": 0.0,
+      "ImagePath": "Images/moonlight.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Her",
+      "Genre": "Romance",
+      "Annee": 2013,
+      "Note": 0.0,
+      "ImagePath": "Images/her.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "A Clockwork Orange",
+      "Genre": "Sci-Fi",
+      "Annee": 1971,
+      "Note": 0.0,
+      "ImagePath": "Images/aclockworkorange.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "2001: A Space Odyssey",
+      "Genre": "Sci-Fi",
+      "Annee": 1968,
+      "Note": 0.0,
+      "ImagePath": "Images/2001aspaceodyssey.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "V for Vendetta",
+      "Genre": "Action",
+      "Annee": 2005,
+      "Note": 0.0,
+      "ImagePath": "Images/vforvendetta.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Eternal Sunshine of the Spotless Mind",
+      "Genre": "Drama",
+      "Annee": 2004,
+      "Note": 0.0,
+      "ImagePath": "Images/eternalsunshineofthespotlessmind.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Memento",
+      "Genre": "Mystery",
+      "Annee": 2000,
+      "Note": 0.0,
+      "ImagePath": "Images/memento.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Truman Show",
+      "Genre": "Drama",
+      "Annee": 1998,
+      "Note": 0.0,
+      "ImagePath": "Images/thetrumanshow.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "There Will Be Blood",
+      "Genre": "Drama",
+      "Annee": 2007,
+      "Note": 0.0,
+      "ImagePath": "Images/therewillbeblood.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Revenant",
+      "Genre": "Adventure",
+      "Annee": 2015,
+      "Note": 0.0,
+      "ImagePath": "Images/therevenant.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Hateful Eight",
+      "Genre": "Crime",
+      "Annee": 2015,
+      "Note": 0.0,
+      "ImagePath": "Images/thehatefuleight.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Django Unchained",
+      "Genre": "Drama",
+      "Annee": 2012,
+      "Note": 0.0,
+      "ImagePath": "Images/djangounchained.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Sin City",
+      "Genre": "Crime",
+      "Annee": 2005,
+      "Note": 0.0,
+      "ImagePath": "Images/sincity.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Drive",
+      "Genre": "Action",
+      "Annee": 2011,
+      "Note": 0.0,
+      "ImagePath": "Images/drive.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Donnie Darko",
+      "Genre": "Sci-Fi",
+      "Annee": 2001,
+      "Note": 0.0,
+      "ImagePath": "Images/donniedarko.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Children of Men",
+      "Genre": "Sci-Fi",
+      "Annee": 2006,
+      "Note": 0.0,
+      "ImagePath": "Images/childrenofmen.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "City of God",
+      "Genre": "Crime",
+      "Annee": 2002,
+      "Note": 0.0,
+      "ImagePath": "Images/cityofgod.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Pan's Labyrinth",
+      "Genre": "Fantasy",
+      "Annee": 2006,
+      "Note": 0.0,
+      "ImagePath": "Images/panslabyrinth.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Amadeus",
+      "Genre": "Drama",
+      "Annee": 1984,
+      "Note": 0.0,
+      "ImagePath": "Images/amadeus.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "test",
+      "Genre": "rom",
+      "Annee": 2002,
+      "Note": 1.0,
+      "ImagePath": null,
+      "Review": "top",
+      "IsInWishlist": false
+    }
+  ],
+  "Series": [
+    {
+      "Titre": "Breaking Bad",
+      "Genre": "Drama",
+      "Annee": 2008,
+      "Note": 0.0,
+      "ImagePath": "Images/breakingbad.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Game of Thrones",
+      "Genre": "Fantasy",
+      "Annee": 2011,
+      "Note": 0.0,
+      "ImagePath": "Images/gameofthrones.jpg",
+      "Review": "",
+      "IsInWishlist": true
+    },
+    {
+      "Titre": "Stranger Things",
+      "Genre": "Sci-Fi",
+      "Annee": 2016,
+      "Note": 0.0,
+      "ImagePath": "Images/strangerthings.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Witcher",
+      "Genre": "Fantasy",
+      "Annee": 2019,
+      "Note": 0.0,
+      "ImagePath": "Images/thewitcher.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Black Mirror",
+      "Genre": "Sci-Fi",
+      "Annee": 2011,
+      "Note": 0.0,
+      "ImagePath": "Images/blackmirror.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Sherlock",
+      "Genre": "Crime",
+      "Annee": 2010,
+      "Note": 0.0,
+      "ImagePath": "Images/sherlock.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "True Detective",
+      "Genre": "Crime",
+      "Annee": 2014,
+      "Note": 0.0,
+      "ImagePath": "Images/truedetective.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Westworld",
+      "Genre": "Sci-Fi",
+      "Annee": 2016,
+      "Note": 0.0,
+      "ImagePath": "Images/westworld.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Mandalorian",
+      "Genre": "Sci-Fi",
+      "Annee": 2019,
+      "Note": 0.0,
+      "ImagePath": "Images/themandalorian.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Crown",
+      "Genre": "Drama",
+      "Annee": 2016,
+      "Note": 0.0,
+      "ImagePath": "Images/thecrown.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Dexter",
+      "Genre": "Crime",
+      "Annee": 2006,
+      "Note": 0.0,
+      "ImagePath": "Images/dexter.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Friends",
+      "Genre": "Comedy",
+      "Annee": 1994,
+      "Note": 0.0,
+      "ImagePath": "Images/friends.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Office",
+      "Genre": "Comedy",
+      "Annee": 2005,
+      "Note": 0.0,
+      "ImagePath": "Images/theoffice.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Sopranos",
+      "Genre": "Drama",
+      "Annee": 1999,
+      "Note": 0.0,
+      "ImagePath": "Images/thesopranos.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Lost",
+      "Genre": "Adventure",
+      "Annee": 2004,
+      "Note": 0.0,
+      "ImagePath": "Images/lost.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Prison Break",
+      "Genre": "Action",
+      "Annee": 2005,
+      "Note": 0.0,
+      "ImagePath": "Images/prisonbreak.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "House of Cards",
+      "Genre": "Drama",
+      "Annee": 2013,
+      "Note": 0.0,
+      "ImagePath": "Images/houseofcards.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Vikings",
+      "Genre": "Action",
+      "Annee": 2013,
+      "Note": 0.0,
+      "ImagePath": "Images/vikings.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Fargo",
+      "Genre": "Crime",
+      "Annee": 2014,
+      "Note": 0.0,
+      "ImagePath": "Images/fargotv.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "American Horror Story",
+      "Genre": "Horror",
+      "Annee": 2011,
+      "Note": 0.0,
+      "ImagePath": "Images/americanhorrorstory.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Grey's Anatomy",
+      "Genre": "Drama",
+      "Annee": 2005,
+      "Note": 0.0,
+      "ImagePath": "Images/greysanatomy.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Peaky Blinders",
+      "Genre": "Drama",
+      "Annee": 2013,
+      "Note": 0.0,
+      "ImagePath": "Images/peakyblinders.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "House M.D.",
+      "Genre": "Drama",
+      "Annee": 2004,
+      "Note": 0.0,
+      "ImagePath": "Images/housemd.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Wire",
+      "Genre": "Crime",
+      "Annee": 2002,
+      "Note": 0.0,
+      "ImagePath": "Images/thewire.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Hannibal",
+      "Genre": "Crime",
+      "Annee": 2013,
+      "Note": 0.0,
+      "ImagePath": "Images/hannibal.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Walking Dead",
+      "Genre": "Horror",
+      "Annee": 2010,
+      "Note": 0.0,
+      "ImagePath": "Images/thewalkingdead.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Narcos",
+      "Genre": "Crime",
+      "Annee": 2015,
+      "Note": 0.0,
+      "ImagePath": "Images/narcos.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Boys",
+      "Genre": "Action",
+      "Annee": 2019,
+      "Note": 0.0,
+      "ImagePath": "Images/theboys.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Better Call Saul",
+      "Genre": "Crime",
+      "Annee": 2015,
+      "Note": 2.0,
+      "ImagePath": "Images/bettercallsaul.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Handmaid's Tale",
+      "Genre": "Drama",
+      "Annee": 2017,
+      "Note": 0.0,
+      "ImagePath": "Images/thehandmaidstale.jpg",
+      "Review": "",
+      "IsInWishlist": true
+    },
+    {
+      "Titre": "Mindhunter",
+      "Genre": "Crime",
+      "Annee": 2017,
+      "Note": 3.0,
+      "ImagePath": "Images/mindhunter.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Haunting of Hill House",
+      "Genre": "Horror",
+      "Annee": 2018,
+      "Note": 0.0,
+      "ImagePath": "Images/thehauntingofhillhouse.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Ozark",
+      "Genre": "Crime",
+      "Annee": 2017,
+      "Note": 0.0,
+      "ImagePath": "Images/ozark.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Umbrella Academy",
+      "Genre": "Sci-Fi",
+      "Annee": 2019,
+      "Note": 0.0,
+      "ImagePath": "Images/theumbrellaacademy.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Killing Eve",
+      "Genre": "Drama",
+      "Annee": 2018,
+      "Note": 0.0,
+      "ImagePath": "Images/killingeve.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Loki",
+      "Genre": "Action",
+      "Annee": 2021,
+      "Note": 0.0,
+      "ImagePath": "Images/loki.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Brooklyn Nine-Nine",
+      "Genre": "Comedy",
+      "Annee": 2013,
+      "Note": 0.0,
+      "ImagePath": "Images/brooklynninenine.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Cobra Kai",
+      "Genre": "Action",
+      "Annee": 2018,
+      "Note": 0.0,
+      "ImagePath": "Images/cobrakai.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Big Little Lies",
+      "Genre": "Drama",
+      "Annee": 2017,
+      "Note": 0.0,
+      "ImagePath": "Images/biglittlelies.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Riverdale",
+      "Genre": "Drama",
+      "Annee": 2017,
+      "Note": 0.0,
+      "ImagePath": "Images/riverdale.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "The Good Place",
+      "Genre": "Comedy",
+      "Annee": 2016,
+      "Note": 0.0,
+      "ImagePath": "Images/thegoodplace.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "This Is Us",
+      "Genre": "Drama",
+      "Annee": 2016,
+      "Note": 0.0,
+      "ImagePath": "Images/thisisus.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Sex Education",
+      "Genre": "Comedy",
+      "Annee": 2019,
+      "Note": 0.0,
+      "ImagePath": "Images/sexeducation.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "Euphoria",
+      "Genre": "Drama",
+      "Annee": 2019,
+      "Note": 0.0,
+      "ImagePath": "Images/euphoria.jpg",
+      "Review": "",
+      "IsInWishlist": false
+    },
+    {
+      "Titre": "test serie",
+      "Genre": "rom",
+      "Annee": 2001,
+      "Note": 3.0,
+      "ImagePath": null,
+      "Review": "greatr",
+      "IsInWishlist": false
+    }
+  ]
+}
